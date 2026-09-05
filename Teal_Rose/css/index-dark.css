@@ -1,0 +1,91 @@
+/* -------------------------------------------
+   Scoped Dark Mode Styles 🌙🖤
+   -------------------------------------------
+   Author: Madhurima Rawat 👩‍💻
+   Purpose: Provides alternate styling when the
+            `dark-mode` class is applied to the
+            <body> element. Overrides light-mode
+            styles for better readability and 
+            visual balance in low-light settings 🌒.
+   Affected Elements:
+     - Body background and text 🖤📄
+     - Header and navigation links 🔗
+     - Section headings and bio text 📰
+     - Cards (project and certification) 🃏
+     - Social links 🌐
+   Usage:
+     - Add the class 'dark-mode' to <body> to
+       enable dark theme styling 🌘.
+------------------------------------------- */
+
+/* Scoped dark mode styles (when dark mode class is added to body) */
+body.dark-mode {
+    background: var(--light-pink-bg);
+    /* Dark background */
+    color: var(--dark-text);
+    /* Light text */
+}
+
+/* Make links fill the height and center content */
+body.dark-mode nav a.nav-link {
+    color: var(--dark-teal);
+}
+
+body.dark-mode nav a:hover {
+    color: var(--dark-pink-text);
+}
+
+body.dark-mode .bio {
+    color: var(--light-text);
+    /* Make bio text coral */
+}
+
+body.dark-mode .section-card {
+    box-shadow: 0 4px 8px var(--button-text);
+}
+
+body.dark-mode .section-card:hover {
+    box-shadow: 0 8px 16px var(--button-text);
+}
+
+body.dark-mode .social-link {
+    color: var(--dark-teal);
+    /* Links in cream */
+    border-color: var(--dark-teal);
+}
+
+body.dark-mode .social-link:hover {
+    color: var(--button-text);
+    /* Links in cream */
+    border-color: var(--dark-teal);
+}
+
+body.dark-mode .skills-list li:hover {
+    color: var(--dark-teal);
+    /* Links in cream */
+    border-color: var(--dark-teal);
+}
+
+/* 🌙 Dark Mode – Text Coloring for Headings, Meta, Descriptions, and Icons */
+body.dark-mode .section-heading,
+body.dark-mode .hobby-icon,
+body.dark-mode footer {
+    color: var(--dark-teal);
+}
+
+body.dark-mode .section-heading {
+    border-bottom: 2px solid var(--button-text);
+    /* Decorative underline */
+}
+
+body.dark-mode .section-subheading {
+    color: var(--light-text);
+}
+
+body.dark-mode .section-meta {
+    color: var(--button-text);
+}
+
+body.dark-mode .section-description {
+    color: var(--light-text);
+}

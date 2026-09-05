@@ -1,0 +1,125 @@
+/*
+-------------------------------------------
+Author: Madhurima Rawat 👩‍💻
+File: index.css 🎨
+Purpose: Main stylesheet for the personal portfolio website.
+         Defines overall layout, typography (fonts & sizes), 
+         color palette 🎨 (light & dark modes), and component styling 
+         such as navigation, sections, buttons, and responsive design 📱.
+-------------------------------------------
+*/
+
+/* General body styles */
+body {
+    background-color: var(--white);
+    /* Light background */
+    color: var(--gray);
+    /* Slate blue text */
+}
+
+/* Header styling */
+header {
+    background-color: var(--bg-white);
+}
+
+nav a {
+    color: var(--light-grey);
+}
+
+nav a:hover {
+    color: var(--lighter-grey);
+}
+
+.bio {
+    color: var(--light-grey);
+    /* Light gray text */
+}
+
+/* Section heading styles */
+.section-heading {
+    color: var(--light-grey);
+    /* Heading text color */
+    border-bottom: 2px solid var(--black);
+}
+
+/* Individual social link */
+.social-link {
+    color: var(--black);
+    /* Link text color */
+    border: 2px solid var(--black);
+    /* Border */
+}
+
+.social-link:hover {
+    background-color: var(--light-grey);
+    /* Change background */
+    color: var(--white);
+    /* Change text color */
+    border-color: var(--white);
+    /* Change border */
+}
+
+/* Individual skill item */
+.skills-list li {
+    background-color: var(--gray);
+    /* Skill badge color */
+    color: var(--white);
+    /* Text color */
+    box-shadow: 0 2px 5px var(--grey);
+    /* Subtle shadow */
+}
+
+.skills-list li:hover {
+    background-color: var(--white);
+    /* Invert colors */
+    color: var(--black);
+    box-shadow: 0 2px 5px var(--gray);
+}
+
+.section-card {
+    border: 2px solid var(--black);
+    background: var(--white);
+    /* Card background */
+    box-shadow: 0 4px 8px var(--grey);
+    /* Subtle grey shadow */
+}
+
+.section-card:hover {
+    box-shadow: 0 8px 16px var(--gray);
+    /* Stronger shadow */
+}
+
+/* -------------------------------------------
+   Project Section Styles
+------------------------------------------- */
+
+/* Project title */
+.section-subheading {
+    color: var(--black);
+}
+
+/* Technologies/tools and certificates link used in the project */
+.section-meta {
+    color: var(--dark-grey);
+}
+
+/* Links to project demos, GitHub, etc. */
+.section-links a {
+    color: var(--white);
+}
+
+/* Hover effect for project links */
+.section-links a:hover {
+    color: var(--black);
+}
+
+/* Icon styling */
+.hobby-icon {
+    color: var(--dark-grey);
+}
+
+.footer {
+    background-color: var(--bg-white);
+    /* light background */
+    color: var(--light-grey);
+}

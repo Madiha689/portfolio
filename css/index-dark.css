@@ -1,0 +1,57 @@
+body.dark-mode {
+    background-color: var(--bg-grey);
+    color: var(--bg-white);
+}
+
+body.dark-mode header,
+body.dark-mode .footer {
+    background-color: var(--light-grey);
+    box-shadow: 0 2px 5px var(--bg-white);
+    color: var(--bg-white)
+}
+
+/* ========== 🌗 Theme Toggle Button ========== */
+body.dark-mode button#theme-toggle,
+body.dark-mode nav a {
+    color: var(--bg-white);
+}
+
+/* ========== ⬇️ Dropdown Menu ========== */
+body.dark-mode button#theme-toggle:hover,
+body.dark-mode nav a:hover {
+    color: var(--color-rainbow-spectrum);
+}
+
+/* ========== ⬇️ Dropdown Menu ========== */
+body.dark-mode .dropdown-menu {
+    background-color: var(--light-grey);
+    box-shadow: 0 2px 6px var(--header-white);
+    color: var(--bg-white);
+}
+
+/* ========== ⬇️ Dropdown Menu ========== */
+body.dark-mode .dropdown-menu a:hover {
+    color: var(--light-grey);
+}
+
+body.dark-mode .section-description {
+    color: var(--heading-color);
+}
+
+body.dark-mode .card-container {
+    background-color: var(--bg-grey);
+    color: var(--header-white);
+}
+
+body.dark-mode .template-section {
+    background-color: var(--bg-grey);
+    color: var(--header-white);
+}
+
+body.dark-mode .section-card {
+    background-color: var(--bg-white);
+}
+
+body.dark-mode .section-link {
+    opacity: 1;
+}

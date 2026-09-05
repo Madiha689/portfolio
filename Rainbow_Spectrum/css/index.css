@@ -1,0 +1,152 @@
+/*
+----------------------------------------------------------------------
+Author: Madhurima Rawat 👩‍💻
+Template: Rainbow_Spectrum 🎨
+File: index.css 📄
+Location: /Rainbow_Spectrum/css/index.css
+----------------------------------------------------------------------
+Description:
+    🎯 This is the main stylesheet for the Slate Ember version of the
+       Minimalist_Professional personal portfolio template.
+
+    📐 Defines core layout and visual styling for elements including:
+        - Sections (Objective, Education, Experience, etc.)
+        - Buttons and interactive elements
+        - Color theming and background styles specific to Slate + Ember palette
+        - Typography: font families, sizes, and alignment
+        - Utility and helper classes for spacing and alignment
+
+    🌗 Works in conjunction with:
+        ✅ variables.css – CSS variables for global theming
+        ✅ main-styles.css – Shared base layout and component styles
+        ✅ index-dark.css – Dark mode overrides for this theme
+        ✅ responsive-styles.css – Responsive behavior for mobile/tablet
+
+----------------------------------------------------------------------
+*/
+
+/* General body styles */
+body {
+    background: var(--rainbow-bg);
+    /* Light background */
+    color: var(--teal);
+    /* Slate blue text */
+}
+
+/* Header styling */
+header {
+    background-color: var(--light-green);
+}
+
+/* Make links fill the height and center content */
+nav a.nav-link {
+    color: var(--dark-green);
+}
+
+nav a:hover {
+    color: var(--red);
+}
+
+.bio {
+    color: var(--light-grey);
+    /* Light gray text */
+}
+
+/* Section heading styles */
+.section-heading {
+    color: var(--teal);
+    /* Heading text color */
+    border-bottom: 2px solid var(--red);
+    /* Decorative underline */
+}
+
+/* Individual social link */
+.social-link {
+    color: var(--teal);
+    /* Link text color */
+    border: 2px solid var(--teal);
+    /* Border */
+    box-shadow: 0 2px 5px var(--dark-purple);
+    /* Subtle shadow */
+}
+
+.social-link:hover {
+    background-color: var(--red);
+    /* Change background */
+    color: var(--button-text);
+    /* Change text color */
+    border-color: var(--red);
+    /* Change border */
+    box-shadow: 0 2px 5px var(--teal);
+    /* Subtle shadow */
+}
+
+/* Individual skill item */
+.skills-list li {
+    background-color: var(--red);
+    /* Skill badge color */
+    color: var(--button-text);
+    /* Text color */
+    box-shadow: 0 2px 5px var(--teal);
+    /* Subtle shadow */
+}
+
+.skills-list li:hover {
+    background-color: var(--rainbow-bg);
+    /* Invert colors */
+    color: var(--teal);
+    border-color: var(--teal);
+    box-shadow: 0 2px 5px var(--dark-purple);
+    /* Subtle shadow */
+}
+
+.section-card {
+    border: 2px solid var(--red);
+    /* Outer border */
+    background: var(--white);
+    /* Card background */
+    box-shadow: 0 4px 8px var(--dark-purple);
+    /* Subtle coral shadow */
+}
+
+.section-card:hover {
+    box-shadow: 0 8px 16px var(--dark-blue);
+}
+
+/* -------------------------------------------
+   Project Section Styles
+------------------------------------------- */
+
+/* Project title */
+.section-subheading {
+    color: var(--red);
+}
+
+
+/* Technologies/tools and certificates link used in the project */
+.section-meta {
+    color: var(--dark-blue);
+}
+
+/* Links to project demos, GitHub, etc. */
+.section-links a {
+    color: var(--teal);
+}
+
+/* Hover effect for project links */
+.section-links a:hover {
+    color: var(--red);
+}
+
+/* Icon styling */
+.hobby-icon {
+    color: var(--teal);
+    /* Adjust to theme color */
+}
+
+.footer {
+    background-color: var(--light-green);
+    /* light background */
+    color: var(--dark-green);
+    border-top: 1px solid var(--dark-white);
+}

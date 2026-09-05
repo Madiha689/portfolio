@@ -1,0 +1,130 @@
+/*
+===========================================
+  🌈 variables.css – Rainbow_Spectrum Theme (Blended & Modular)
+  Portfolio-Templates / Rainbow_Spectrum
+  Author: Madhurima Rawat
+  Description:
+    Defines modular CSS variables for a bright and dark-friendly rainbow theme.
+    Includes smoothly blended linear gradients, well-labeled color tokens,
+    and dark mode-compatible enhancements.
+===========================================
+*/
+
+:root {
+  /* =============================
+     🌈 Modular Rainbow Color Tokens
+     --------------------------------
+     These are lighter pastel-like shades of the 7 rainbow colors.
+     Used in both light and blended gradient backgrounds.
+  ============================= */
+  --light-red: #ff8a8a;
+  /* Light/pinkish red */
+  --light-orange: #ffb347;
+  /* Soft carrot orange */
+  --light-yellow: #fff68f;
+  /* Gentle buttery yellow */
+  --light-green: #b0f2b6;
+  /* Mint pastel green */
+  --light-blue: #add8e6;
+  /* Light baby blue */
+  --light-indigo: #c3b1e1;
+  /* Muted lavender/indigo */
+  --light-violet: #e1b3ff;
+  /* Pale violet orchid */
+
+  /* =============================
+     🌈 Rainbow Background Gradient (Light Theme)
+     --------------------------------------------
+     A smoothly blended, friendly and bright linear gradient
+     using the modular rainbow tokens.
+  ============================= */
+  --rainbow-bg: linear-gradient(95deg,
+      var(--light-red),
+      var(--light-orange),
+      var(--light-yellow),
+      var(--light-green),
+      var(--light-blue),
+      var(--light-indigo),
+      var(--light-violet));
+
+  /* =============================
+     🌤️ Lighter Dark Mode Rainbow Tokens
+     ---------------------------------------------
+     These are softer, pastel-tinted versions of the dark-mode palette.
+     Designed to contrast well with deep backgrounds while maintaining a vibrant presence.
+  ============================= */
+
+  --dark-mode-red: #d26a6a;
+  /* soft cherry */
+  --dark-mode-orange: #e6a96c;
+  /* creamy apricot */
+  --dark-mode-yellow: #e0cf6a;
+  /* mellow gold */
+  --dark-mode-green: #78d2a5;
+  /* light mint jade */
+  --dark-mode-blue: #76b3eb;
+  /* clear sky */
+  --dark-mode-indigo: #9d92d1;
+  /* lavender dusk */
+  --dark-mode-violet: #c491dd;
+  /* lilac mauve */
+
+  /* =============================
+             🌌 Rainbow Background Gradient (Dark Theme)
+             ---------------------------------------------
+             Smoothly blended muted rainbow tones over dark #1e1e1e background.
+          ============================= */
+  --rainbow-dark-bg: linear-gradient(100deg,
+      var(--dark-mode-red),
+      var(--dark-mode-orange),
+      var(--dark-mode-yellow),
+      var(--dark-mode-green),
+      var(--dark-mode-blue),
+      var(--dark-mode-indigo),
+      var(--dark-mode-violet));
+
+
+  /* =============================
+     🖋️ Text & Heading Colors
+     -------------------------------
+     Balanced contrast text colors for readability
+     across light/dark backgrounds.
+  ============================= */
+  --text-dark: #333;
+  /* Default deep gray for dark-on-light */
+  --red: #d85d5d;
+  /* Soft, earthy red for highlights or warnings */
+  --teal: teal;
+  /* Teal for accents or icons */
+  --dark-green: rgb(8, 86, 86);
+  /* Deep oceanic green, good for nature themes */
+
+  /* =============================
+     ✨ Accent Colors & Hovers
+     -------------------------------
+     Interactive UI elements and hover feedback styles.
+  ============================= */
+  --light-grey: #3c3939;
+  /* Dark greyscale for neutral buttons or text */
+  --dark-blue: blue;
+  /* Base blue, consider adjusting for hover */
+  --dark-purple: #6a11cb;
+  /* Vibrant purple for standout elements */
+  --dark-red: rgb(189, 14, 43);
+
+  /* =============================
+     🔘 Buttons & Shadows
+     -------------------------------
+     Button text and visual depth styles.
+  ============================= */
+  --button-text: whitesmoke;
+  /* Slightly off-white for contrast on dark buttons */
+  --bisque: bisque;
+
+  /* =============================
+     🖋️ Typography
+     -------------------------------
+     Friendly, rounded typeface for fun and modern look.
+  ============================= */
+  --font-main: 'Fredoka', sans-serif;
+}

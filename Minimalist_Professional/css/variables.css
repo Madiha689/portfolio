@@ -1,0 +1,77 @@
+/*
+===========================================
+  🎨 variables.css – Global Style Constants
+  Portfolio-Templates / Minimalist_Professional
+  Author: Madhurima Rawat
+  Description:
+    This file contains global CSS variables used
+    across the Minimalist_Professional template for
+    consistent theming, color harmony, and maintainable
+    styling. Includes base neutrals, accent colors,
+    typography, and layout backgrounds.
+===========================================
+*/
+
+/* =============================
+   🎨 Global Color Variables
+   ============================= */
+
+:root {
+  /* 🌼 Neutrals & Backgrounds */
+  /* Light white background */
+  --white: whitesmoke;
+  /* Slightly darker white for borders or secondary text */
+  --dark-white: #ccc;
+  /* Soft cream for sections or card backgrounds */
+  --cream: #f5f1e9;
+  /* Pure white background for content areas */
+  --bg-white: white;
+  /* Very light grey background, ideal for layout contrast */
+  --bg-light-grey: #E6E6E6;
+
+  /* 🎨 Greyscale Range */
+  /* Primary dark grey for main text */
+  --black: #333;
+  /* Lighter grey, can be used for subtext or muted icons */
+  --light-grey: #4a4a4a;
+  /* Alias for light-grey, interchangeable in styling */
+  --grey: #4a4a4a;
+  /* Medium grey for subtle separation or borders */
+  --gray: #555;
+  /* Deep dark grey for headers or footer backgrounds */
+  --dark-grey: #3D3737;
+  /* Grey background variant (same as dark-grey) */
+  --bg-grey: #3D3737;
+  /* Light muted grey for inactive UI or disabled text */
+  --lighter-grey: rgb(181, 168, 168);
+
+  /* 🔴 Accent Colors */
+  /* Primary coral highlight (buttons, icons, CTA) */
+  --coral: #ff6f61;
+  /* Semi-transparent coral red for hover/overlay states */
+  --dark-red: rgba(255, 111, 97, 0.6);
+  /* Light brown tone with coral hue, good for soft emphasis */
+  --brown: rgba(255, 111, 97, 0.5);
+  /* Subtle coral-brown for backgrounds or depth layering */
+  --dark-brown: rgba(255, 111, 97, 0.3);
+  /* Soft pink accent for buttons, highlights, or hover states */
+  --pink: #FF78AC;
+
+  /* 🌿 Greens */
+  /* Primary green accent for success or eco-themed elements */
+  --fern: #5FAE57;
+  /* Soft pale green for gentle background or notification cards */
+  --sage-green: #E8F5E0;
+
+  /* ✨ Special Accents */
+  /* Muted blue-grey for headers, quotes, or subtle emphasis */
+  --slate-blue: #6a7aa0;
+  /* Warm gold accent for awards, badges, or highlights */
+  --golden: #D4A017;
+  /* Main teal accent used in headings, highlights */
+  --teal: teal;
+
+  /* 🖋️ Font */
+  /* Main font stack for clean, readable typography */
+  --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

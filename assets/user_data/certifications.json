@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Full Stack Web Development",
+        "issuer": "FreeCodeCamp",
+        "year": "2023",
+        "link": "link_to_certificate_1"
+    },
+    {
+        "title": "UI/UX Design Specialization",
+        "issuer": "Coursera",
+        "year": "2022",
+        "link": "link_to_certificate_2"
+    }
+]

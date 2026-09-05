@@ -1,0 +1,143 @@
+/*
+----------------------------------------------------------------------
+Author: Madhurima Rawat 👩‍💻
+Template: Blue_Whisper 🎨
+File: index.css 📄
+Location: /Blue_Whisper/css/index.css
+----------------------------------------------------------------------
+Description:
+    🎯 This is the main stylesheet for the Slate Ember version of the
+       Minimalist_Professional personal portfolio template.
+
+    📐 Defines core layout and visual styling for elements including:
+        - Sections (Objective, Education, Experience, etc.)
+        - Buttons and interactive elements
+        - Color theming and background styles specific to Slate + Ember palette
+        - Typography: font families, sizes, and alignment
+        - Utility and helper classes for spacing and alignment
+
+    🌗 Works in conjunction with:
+        ✅ variables.css – CSS variables for global theming
+        ✅ main-styles.css – base layout and component styles
+        ✅ index-dark.css – Dark mode overrides for this theme
+        ✅ responsive-styles.css – Responsive behavior for mobile/tablet
+
+----------------------------------------------------------------------
+*/
+
+/* General body styles */
+body {
+    background-color: var(--light-blue);
+    color: var(--dark-aqua)
+}
+
+/* Make links fill the height and center content */
+nav a.nav-link {
+    color: var(--dark-aqua);
+}
+
+nav a:hover {
+    color: var(--dark-pink);
+}
+
+.bio {
+    color: var(--dark-blue);
+    /* Light gray text */
+}
+
+/* Section heading styles */
+.section-heading {
+    color: var(--dark-aqua);
+    /* Heading text color */
+    border-bottom: 2px solid var(--dark-pink);
+    /* Decorative underline */
+}
+
+/* Individual social link */
+.social-link {
+    color: var(--dark-aqua);
+    /* Link text color */
+    border: 2px solid var(--dark-aqua);
+    /* Border */
+    box-shadow: 0 2px 5px var(--hover-blue);
+    /* Subtle shadow */
+}
+
+.social-link:hover {
+    background-color: var(--dark-pink);
+    /* Change background */
+    color: var(--button-text);
+    /* Change text color */
+    border-color: var(--dark-pink);
+    /* Change border */
+    box-shadow: 0 2px 5px var(--dark-aqua);
+    /* Subtle shadow */
+}
+
+/* Individual skill item */
+.skills-list li {
+    background-color: var(--dark-pink);
+    /* Skill badge color */
+    color: var(--button-text);
+    /* Text color */
+    box-shadow: 0 2px 5px var(--dark-aqua);
+    /* Subtle shadow */
+}
+
+.skills-list li:hover {
+    background-color: transparent;
+    /* Invert colors */
+    color: var(--dark-aqua);
+    border-color: var(--dark-aqua);
+    box-shadow: 0 2px 5px var(--hover-blue);
+    /* Subtle shadow */
+}
+
+.section-card {
+    border: 2px solid var(--dark-pink);
+    /* Outer border */
+    background: var(--white);
+    /* Card background */
+    box-shadow: 0 4px 8px var(--hover-blue);
+    /* Subtle coral shadow */
+    font-weight: bold;
+}
+
+.section-card:hover {
+    box-shadow: 0 8px 16px var(--hover-blue);
+}
+
+/* -------------------------------------------
+   Project Section Styles
+------------------------------------------- */
+
+/* Project title */
+.section-subheading {
+    color: var(--dark-pink);
+}
+
+
+/* Technologies/tools and certificates link used in the project */
+.section-meta {
+    color: var(--dark-blue);
+}
+
+/* Links to project demos, GitHub, etc. */
+.section-links a {
+    color: var(--dark-aqua);
+}
+
+/* Hover effect for project links */
+.section-links a:hover {
+    color: var(--dark-pink);
+}
+
+/* Icon styling */
+.hobby-icon {
+    color: var(--dark-aqua);
+    /* Adjust to theme color */
+}
+
+.footer {
+    color: var(--dark-blue);
+}

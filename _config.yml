@@ -1,0 +1,6 @@
+# The base URL of your site, used in constructing absolute URLs for assets like images and pages
+url: "https://madhurimarawat.github.io"
+
+# The subdirectory of your GitHub Pages site (if the repository is not user.github.io)
+# For example, if your repo is github.com/user/Portfolio-Templates, use "/Portfolio-Templates"
+baseurl: "/Portfolio-Templates"

@@ -1,0 +1,75 @@
+/* -------------------------------------------
+   Scoped Dark Mode Styles 🌙🖤
+   -------------------------------------------
+   Author: Madhurima Rawat 👩‍💻
+   Purpose: Provides alternate styling when the
+            `dark-mode` class is applied to the
+            <body> element. Overrides light-mode
+            styles for better readability and 
+            visual balance in low-light settings 🌒.
+   Affected Elements:
+     - Body background and text 🖤📄
+     - Header and navigation links 🔗
+     - Section headings and bio text 📰
+     - Cards (project and certification) 🃏
+     - Social links 🌐
+   Usage:
+     - Add the class 'dark-mode' to <body> to
+       enable dark theme styling 🌘.
+------------------------------------------- */
+
+/* Scoped dark mode styles (when dark mode class is added to body) */
+body.dark-mode {
+    background: var(--rainbow-dark-bg);
+    /* Dark background */
+    color: var(--dark-red);
+    /* Light text */
+}
+
+/* Header styling */
+body.dark-mode header {
+    background-color: var(--dark-mode-green);
+}
+
+/* Make links fill the height and center content */
+body.dark-mode nav a.nav-link {
+    color: var(--text-dark);
+}
+
+body.dark-mode nav a:hover {
+    color: var(--dark-red);
+}
+
+body.dark-mode .bio {
+    color: var(--light-grey);
+    /* Make bio text coral */
+}
+
+body.dark-mode .social-link {
+    color: var(--dark-green);
+    /* Links in cream */
+}
+
+body.dark-mode .social-link:hover {
+    color: var(--button-text);
+    /* Links in cream */
+}
+
+body.dark-mode .section-heading {
+    color: var(--dark-green);
+    /* Project name in cream */
+}
+
+/* Technologies/tools and certificates link used in the project */
+body.dark-mode .section-meta {
+    color: var(--dark-grey);
+}
+
+body.dark-mode .hobby-icon {
+    color: var(--dark-green);
+}
+
+/* Footer styling */
+body.dark-mode footer {
+    background-color: var(--dark-mode-green);
+}

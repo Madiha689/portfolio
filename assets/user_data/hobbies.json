@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Photography",
+        "publication": "Captured moments through lens, featured in Visual Arts & Creativity Magazine",
+        "link": "https://doi.org/examplepaper"
+    },
+    {
+        "title": "Traveling",
+        "publication": "Explored diverse cultures and landscapes across 10+ countries",
+        "link": "https://doi.org/examplepaper"
+    },
+    {
+        "title": "Creative Writing",
+        "publication": "Authored short stories and poems published in Modern Literary Review",
+        "link": "https://doi.org/examplewriting"
+    },
+    {
+        "title": "Open Source Contribution",
+        "publication": "Actively contributed to GitHub repositories and developer communities",
+        "link": "https://github.com/madhurimarawat"
+    },
+    {
+        "title": "Sketching & Doodling",
+        "publication": "Visual storytelling through hand-drawn art and digital sketches",
+        "link": ""
+    },
+    {
+        "title": "Reading Non-Fiction",
+        "publication": "Avid reader of psychology, biographies, and tech innovation books",
+        "link": ""
+    }
+]

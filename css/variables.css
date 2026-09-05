@@ -1,0 +1,29 @@
+:root {
+   /* === Minimalist Professional === */
+   --color-slate-ember: #36454F;
+   --color-golden-fern: #B8860B;
+   --color-monochrome-grace: #555;
+   --color-blushed-graphite: grey;
+
+   /* === Creative & Expressive === */
+   --color-rainbow-spectrum: #DA70D6;
+   --color-blue-whisper: rgb(0, 200, 255);
+   --color-teal-rose: #008080;
+   --color-aurora-circuit: #2563eb;
+
+   /* === Nature-Inspired === */
+   --color-nature-canvas: #1ba35d;
+
+   --bg-white: #f7e8e8;
+
+   --text-grey: #444;
+
+   --text-blue: #007acc;
+   --header-white: #fbd0d0;
+   --hover-black: rgba(0, 0, 0, 0.1);
+   --heading-color: #333;
+   --light-grey: #555;
+   --section-fill: #fff;
+   --bg-grey: rgb(192, 181, 181);
+   --cream: #e8d6d6;
+}

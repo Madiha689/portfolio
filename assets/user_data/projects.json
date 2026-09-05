@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Project One",
+        "description": "A web application that helps users manage tasks efficiently.",
+        "link": {
+            "github": "https://github.com/janedoe/project-one",
+            "live_demo": "https://project-one.janedoe.dev"
+        },
+        "tools": [
+            "React",
+            "Node.js",
+            "MongoDB"
+        ],
+        "image": "https://img.freepik.com/premium-vector/project-typographic-header_277904-11460.jpg?w=2000"
+    },
+    {
+        "name": "Project Two",
+        "description": "An AI-powered chatbot built using Python and NLP libraries.",
+        "link": {
+            "github": "https://github.com/janedoe/chatbot",
+            "live_demo": ""
+        },
+        "tools": [
+            "Python",
+            "NLTK",
+            "Flask"
+        ],
+        "image": "https://xebrio.com/wp-content/uploads/2021/09/project-management-artifacts-banner-980x515.jpg"
+    }
+]

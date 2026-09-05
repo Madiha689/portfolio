@@ -1,0 +1,36 @@
+:root {
+   /* ========================================
+      💧 Blue Whisper Theme – Color Palette
+      ----------------------------------------
+      A serene, airy mix of blues and soft contrasts,
+      evoking the calm of water and sky.
+   ======================================== */
+   --light-blue: #f1f9ff;
+   /* Light blue mist – gentle, fresh highlights */
+   --dark-blue: #063041;
+   /* Deep ocean blue – strong contrast for depth */
+   --dark-aqua: #144e66;
+   /* Cool aqua – calm and crisp */
+   --hover-blue: #1a6ba0;
+   /* Muted sky blue – interactive hover cue */
+   --button-text: #d9efff;
+   /* Button text tone – soft but legible on dark */
+
+   --light-teal: #56a7dd;
+   /* Light frosted teal – balanced highlight tone */
+
+   --dark-blue-text: #0c3544;
+   /* Deep sea ink – rich, readable, and elegant */
+
+   --dark-pink: #d81c87;
+   /* Soft mauve – subtle alert or romantic accent */
+
+   --dark-text: #061e27;
+
+   /* ========================================
+      🖋️ Typography – Whispered Refinement
+      ----------------------------------------
+      A classic serif with a poetic, tranquil tone.
+   ======================================== */
+   --font-main: 'Cardo', serif;
+}

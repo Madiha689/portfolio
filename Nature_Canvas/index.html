@@ -1,0 +1,202 @@
+---
+permalink: /Nature_Canvas
+---
+
+<!--
+    🌟 Nature Canvas Portfolio Template 🌟
+    
+    Author: Madhurima Rawat 👩‍💻
+    Date: July 12, 2025 📅
+    Repository: https://github.com/madhurimarawat/Portfolio-Templates 🔗
+    
+    Description:
+    This HTML template provides a clean, minimalist portfolio structure featuring:
+    - 🏠 Home section with name, role & bio
+    - 💻 Projects showcase
+    - 💡 Skills list
+    - 🔗 Social media links
+    - 🎓 Education & Certifications
+    - 📄 Research papers
+    - 🎨 Hobbies & Interests
+    
+    Features:
+    - Responsive navigation with icons
+    - Dark mode toggle 🌙
+    - Uses Font Awesome for visual icons
+    - External CSS for light & dark themes
+    - All essential meta tags for SEO, responsiveness, and social media preview included 📱🔍✨
+    
+    Usage:
+    Customize content in the respective sections.
+    Link your JavaScript file to dynamically load content.
+    
+    Enjoy building your professional online presence! 🚀
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Nature Canvas professional portfolio template by Madhurima Rawat showcasing projects, skills, social links, education, and more." />
+    <meta name="keywords"
+        content="portfolio, minimalist, web developer, projects, skills, education, Madhurima Rawat" />
+    <meta name="author" content="Madhurima Rawat" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/title-icon.png" />
+
+    <!-- Open Graph / Facebook Preview -->
+    <meta property="og:title" content="Minimalist Portfolio by Madhurima Rawat" />
+    <meta property="og:description"
+        content="Clean, professional portfolio template featuring projects, skills, social links, and more." />
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/Nature_Canvas/site-previews/website_1.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://madhurimarawat.github.io/Portfolio-Templates/Nature_Canvas" />
+    <meta property="og:image:width" content="716" />
+    <meta property="og:image:height" content="397" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Madhurima Rawat Portfolio Templates" />
+
+    <!-- Twitter Card Preview -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Minimalist Portfolio by Madhurima Rawat" />
+    <meta name="twitter:description"
+        content="Clean, professional portfolio template featuring projects, skills, social links, and more." />
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/Nature_Canvas/site-previews/website_1.png" />
+    <meta name="twitter:image:alt" content="Preview of Nature Canvas portfolio template" />
+
+    <title>Nature Canvas 🌱 Portfolio</title>
+
+    <!-- Article Publish & Update Metadata -->
+    <!-- The date and time when this portfolio template was originally published -->
+    <meta property="article:published_time" content="2025-06-15T16:37:24Z" />
+
+    <!-- The date and time when this page was last modified (updated) -->
+    <meta property="article:modified_time" content="2025-07-13T06:30:00Z" />
+
+    <!-- Canonical URL (avoids duplicate content) -->
+    <link rel="canonical" href="https://madhurimarawat.github.io/Portfolio-Templates/Nature_Canvas" />
+
+    <!-- Apple Touch Icon (iOS home screen) -->
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/title-icon.png" />
+
+    <!-- Theme Color for mobile browsers -->
+    <meta name="theme-color" content="#094929" />
+
+    <!-- Dublin Core Metadata -->
+    <meta name="DC.title" content="Nature Canvas Portfolio by Madhurima Rawat">
+    <meta name="DC.creator" content="Madhurima Rawat">
+
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="
+            default-src 'self';
+            img-src 'self' data: https:;
+            style-src 'self' 'unsafe-inline' https:;
+            script-src 'self' 'unsafe-inline';
+            font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;">
+
+    <!-- CSS for styles and dark mode toggle -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/Nature_Canvas/css/variables.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/Nature_Canvas/css/main-styles.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/Nature_Canvas/css/index.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/Nature_Canvas//css/index-dark.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/Nature_Canvas/css/responsive-styles.css" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Marcellus:wght@400;600&family=Quicksand:wght@400;500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- Navigation links with icons -->
+                <li><a href="{{ site.baseurl }}/" target="_parent" class="nav-link"><i class="fas fa-house"></i>
+                        Home</a></li>
+                <!-- 🏠 Home -->
+                <li><a href="#projects" class="nav-link"><i class="fas fa-code"></i> Projects</a></li>
+                <!-- 💻 Projects -->
+                <li><a href="#skills" class="nav-link"><i class="fas fa-lightbulb"></i> Skills</a></li>
+                <!-- 💡 Skills -->
+                <li><a href="#social" class="nav-link"><i class="fas fa-share-alt"></i> Socials</a></li>
+                <!-- 🔗 Social Links -->
+                <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <!-- 🎓 Education -->
+                <li><a href="#mode" class="nav-link"><i class="fas fa-moon"></i> Dark Mode</a></li>
+                <!-- 🌙 Dark Mode Toggle -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section with user basic info -->
+        <section id="home" class="section home-section">
+            <h1 id="name" class="name"></h1> <!-- 👤 User Name -->
+            <p id="role" class="role"></p> <!-- 🎯 User Role / Title -->
+            <p id="bio" class="bio"></p> <!-- 📝 Short Bio -->
+        </section>
+
+        <!-- Social links with icons -->
+        <section id="social" class="section social-section">
+            <h2 class="section-heading">Social Links</h2>
+            <div id="social-links" class="social-links"></div> <!-- 🔗 Social Media Icons and Links -->
+        </section>
+
+        <!-- Skills list -->
+        <section id="skills" class="section skills-section">
+            <h2 class="section-heading">Skills</h2>
+            <ul id="skills-list" class="skills-list"></ul> <!-- 💼 List of skills -->
+        </section>
+
+        <!-- Projects showcase -->
+        <section id="projects" class="section projects-section">
+            <h2 class="section-heading">Projects</h2>
+            <div id="projects-list" class="projects-list section-list"></div> <!-- 📂 Project cards -->
+        </section>
+
+        <!-- Certifications display -->
+        <section id="certifications" class="section certifications-section">
+            <h2 class="section-heading">Certifications</h2>
+            <div id="certifications-list" class="certifications-list section-list"></div> <!-- 🎓 Certifications -->
+        </section>
+
+        <!-- Education background -->
+        <section id="education" class="section education-section">
+            <h2 class="section-heading">Education</h2>
+            <div id="education-table" class="education-table section-list"></div> <!-- 🏫 Education history -->
+        </section>
+
+        <!-- Research papers -->
+        <section id="research" class="section research-section">
+            <h2 class="section-heading">Research Papers</h2>
+            <div id="research-papers" class="research-list section-list"></div> <!-- 📄 Research publications -->
+        </section>
+
+        <!-- Hobbies and interests -->
+        <section id="hobbies" class="section hobbies-section">
+            <h2 class="section-heading">Hobbies & Interests</h2>
+            <ul id="hobbies-list" class="hobbies-list section-list"></ul> <!-- 🎨 List of hobbies -->
+        </section>
+    </main>
+
+    <!-- Main JavaScript to dynamically load content -->
+    <script src="{{ site.baseurl }}/js/index.js"></script>
+</body>
+
+<footer class="footer">
+    <!-- Footer with dynamic year and name -->
+    <p>&copy; <span id="footer-year"></span> <span id="footer-name">@name</span>. All rights reserved.</p>
+    <!-- © Year & Author -->
+</footer>
+
+</html>

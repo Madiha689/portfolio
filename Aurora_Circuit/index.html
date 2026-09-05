@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurora Circuit – Portfolio Template</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/main-styles.css" />
+    <link rel="stylesheet" href="css/responsive-styles.css" />
+    <!-- Theme (light or dark) -->
+    <link id="theme-style" rel="stylesheet" href="css/index.css" />
+
+    <link rel="icon" href="images/sample-image.jpg" />
+</head>
+<body>
+    <!-- GLOBAL BACKGROUND LAYER (covers entire site) -->
+    <div class="page-bg"></div>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header" id="top">
+        <nav class="navbar">
+            <div class="navbar__brand">
+                <span class="brand-mark"></span>
+                <span class="brand-text">Aurora <span>Circuit</span></span>
+            </div>
+
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="nav-toggle__line"></span>
+                <span class="nav-toggle__line"></span>
+            </button>
+
+            <ul class="navbar__links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <span class="theme-toggle__icon">🌙</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ================= HERO ================= -->
+        <section class="hero" id="home">
+            <div class="hero__overlay"></div>
+            <div class="hero__inner container">
+                <div class="hero__content">
+                    <p class="hero__eyebrow">Portfolio Template · Aurora Circuit</p>
+
+                    <h1 class="hero__title">
+                        <span class="hero__title-line">
+                            Hi, I’m <span class="accent">Jane Doe</span>.
+                        </span>
+                        <span class="hero__title-line">
+                            Full Stack Developer & UI Crafter.
+                        </span>
+                    </h1>
+
+                    <p class="hero__subtitle">
+                        A calm, futuristic portfolio layout designed for developers and designers who
+                        love clean code, soft glows, and precise details.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="mailto:example@gmail.com" class="btn btn-ghost">Contact Me</a>
+                    </div>
+
+                    <div class="hero__meta">
+                        <div class="hero__meta-item">
+                            <span class="meta-label">Current Focus</span>
+                            <span class="meta-value">Web Apps · UI Systems</span>
+                        </div>
+                        <div class="hero__meta-item">
+                            <span class="meta-label">Location</span>
+                            <span class="meta-value">Remote · Worldwide</span>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="hero__sidebar">
+                    <div class="hero-card">
+                        <h2 class="hero-card__title">Quick Snapshot</h2>
+                        <ul class="hero-card__list">
+                            <li>3+ Academic Projects</li>
+                            <li>Open-source Contributor</li>
+                            <li>Comfortable with React & APIs</li>
+                            <li>Passionate about clean UX</li>
+                        </ul>
+                    </div>
+
+                   <div class="hero-social">
+  <span class="hero-social__label">Connect</span>
+
+  <div class="hero-social__links">
+
+    <a href="https://github.com" target="_blank" class="social-btn">
+      <svg viewBox="0 0 24 24">
+        <path
+          d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.52-1.32-1.28-1.67-1.28-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.34.94.1-.74.4-1.24.72-1.52-2.55-.29-5.23-1.28-5.23-5.67 0-1.25.45-2.27 1.17-3.07-.12-.29-.5-1.46.11-3.05 0 0 .95-.3 3.1 1.17.9-.25 1.87-.38 2.83-.38.96 0 1.93.13 2.83.38 2.15-1.47 3.1-1.17 3.1-1.17.61 1.59.23 2.76.11 3.05.73.8 1.17 1.82 1.17 3.07 0 4.4-2.69 5.38-5.25 5.67.41.36.77 1.07.77 2.16v3.2c0 .31.21.67.8.56C20.7 21.39 24 17.08 24 12 24 5.73 18.27.5 12 .5z"
+        />
+      </svg>
+      GitHub
+    </a>
+
+    <a href="https://www.linkedin.com" target="_blank" class="social-btn">
+      <svg viewBox="0 0 24 24">
+        <path
+          d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.7 4.9-2.7 5.3 0 6.3 3.5 6.3 8V24h-5V16.2c0-1.9 0-4.3-2.6-4.3-2.6 0-3 2-3 4.1V24h-5V8z"
+        />
+      </svg>
+      LinkedIn
+    </a>
+
+    <a href="https://twitter.com" target="_blank" class="social-btn">
+      <svg viewBox="0 0 24 24">
+        <path
+          d="M23.95 4.57c-.89.39-1.83.66-2.83.78 1.02-.61 1.8-1.58 2.17-2.73-.95.57-2.01.98-3.14 1.2-.9-.96-2.18-1.56-3.59-1.56-2.72 0-4.92 2.2-4.92 4.92 0 .39.04.77.12 1.14C7.7 8.1 4.1 6.1 1.67 3.15c-.43.73-.67 1.58-.67 2.49 0 1.72.88 3.24 2.22 4.13-.82-.02-1.6-.25-2.28-.62v.06c0 2.4 1.7 4.4 3.95 4.85-.42.11-.87.17-1.33.17-.32 0-.64-.03-.95-.09.64 2 2.5 3.45 4.7 3.5-1.72 1.35-3.89 2.15-6.24 2.15-.41 0-.81-.02-1.2-.07 2.23 1.43 4.87 2.27 7.71 2.27 9.25 0 14.3-7.66 14.3-14.3 0-.22 0-.44-.02-.65.98-.7 1.83-1.58 2.5-2.57z"
+        />
+      </svg>
+      Twitter
+    </a>
+
+    <a href="#" class="social-btn">
+      <svg viewBox="0 0 24 24">
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10
+          10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm1.07-7.75-.9.92A1.5
+          1.5 0 0 0 13 13h-2v-.5c0-.4.16-.78.44-1.06l1.24-1.26a2
+          2 0 1 0-3.41-1.42H7.26a4 4 0 1 1 6.81 2.49z"
+        />
+      </svg>
+      Portfolio
+    </a>
+
+  </div>
+</div>
+
+                </aside>
+            </div>
+        </section>
+
+        <!-- ================= SOCIAL LINKS ================= -->
+        <section class="social-section">
+            <div class="container">
+                <h2 class="section-title">Social Links</h2>
+                <p class="section-subtitle">
+                    All your important links in one visually balanced row of tags.
+                </p>
+                <div class="social-tags">
+                    <a href="mailto:example@gmail.com" class="tag">Email</a>
+                    <a href="https://github.com" target="_blank" class="tag">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank" class="tag">LinkedIn</a>
+                    <a href="https://twitter.com" target="_blank" class="tag">Twitter</a>
+                    <a href="https://medium.com" target="_blank" class="tag">Blog</a>
+                    <a href="https://dribbble.com" target="_blank" class="tag">Behance / Dribbble</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SKILLS ================= -->
+        <section class="section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Skills & Tools</h2>
+                    <p class="section-subtitle">
+                        Grouped by category so recruiters can quickly scan your strengths.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="card">
+                        <h3 class="card__title">Core Web</h3>
+                        <ul class="pill-list">
+                            <li>HTML5</li>
+                            <li>CSS3 / Flexbox / Grid</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="card__title">Frameworks</h3>
+                        <ul class="pill-list">
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>REST APIs</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="card__title">UI & Product</h3>
+                        <ul class="pill-list">
+                            <li>Figma</li>
+                            <li>Wireframing</li>
+                            <li>Design Systems</li>
+                            <li>Accessibility Basics</li>
+                        </ul>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="card__title">Other</h3>
+                        <ul class="pill-list">
+                            <li>Git & GitHub</li>
+                            <li>Unit Testing</li>
+                            <li>Agile Basics</li>
+                            <li>Technical Writing</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= PROJECTS ================= -->
+        <section class="section section-alt" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <p class="section-subtitle">
+                        A compact grid of projects with clear tags for tech stack and project type.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="card project-card">
+                        <div class="project-card__header">
+                            <h3 class="card__title">Smart Finance Tracker</h3>
+                            <span class="project-card__year">2024</span>
+                        </div>
+                        <p class="card__body">
+                            Web app that visualizes monthly spending and trends using interactive charts.
+                        </p>
+                        <div class="pill-list pill-list--row">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-card__links">
+                            <a href="https://example.com" target="_blank">Live Demo</a>
+                            <a href="https://github.com" target="_blank">GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="card project-card">
+                        <div class="project-card__header">
+                            <h3 class="card__title">Eco-Shop Assistant</h3>
+                            <span class="project-card__year">2024</span>
+                        </div>
+                        <p class="card__body">
+                            Machine learning–assisted tool that classifies products as eco-friendly.
+                        </p>
+                        <div class="pill-list pill-list--row">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Flask</span>
+                        </div>
+                        <div class="project-card__links">
+                            <a href="https://medium.com" target="_blank">Case Study</a>
+                            <a href="https://github.com" target="_blank">GitHub</a>
+                        </div>
+                    </article>
+
+                    <article class="card project-card">
+                        <div class="project-card__header">
+                            <h3 class="card__title">Campus Task Manager</h3>
+                            <span class="project-card__year">2023</span>
+                        </div>
+                        <p class="card__body">
+                            Task manager built for student teams, with shared boards and statuses.
+                        </p>
+                        <div class="pill-list pill-list--row">
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                            <span>Thymeleaf</span>
+                        </div>
+                        <div class="project-card__links">
+                            <a href="https://www.behance.net" target="_blank">Screenshots</a>
+                        </div>
+                    </article>
+
+                    <article class="card project-card">
+                        <div class="project-card__header">
+                            <h3 class="card__title">Portfolio Generator</h3>
+                            <span class="project-card__year">2023</span>
+                        </div>
+                        <p class="card__body">
+                            CLI tool that converts JSON into a ready-to-deploy static portfolio site.
+                        </p>
+                        <div class="pill-list pill-list--row">
+                            <span>Python</span>
+                            <span>Jinja2</span>
+                            <span>CLI</span>
+                        </div>
+                        <div class="project-card__links">
+                            <a href="https://github.com" target="_blank">GitHub</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CERTIFICATIONS ================= -->
+        <section class="section" id="certifications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Certifications</h2>
+                    <p class="section-subtitle">
+                        Show structured proof of your learning journey.
+                    </p>
+                </div>
+
+                <div class="cert-grid">
+                    <article class="card cert-card">
+                        <h3 class="card__title">Full-Stack Web Development</h3>
+                        <p class="card__body">Coursera · 2023 – HTML, CSS, JS, React, Node.js.</p>
+                        <p class="cert-card__meta">Credential ID: XYZ-123</p>
+                    </article>
+
+                    <article class="card cert-card">
+                        <h3 class="card__title">Data Analytics with R</h3>
+                        <p class="card__body">University Program · 2024 – Data wrangling & viz.</p>
+                        <p class="cert-card__meta">Grade: A</p>
+                    </article>
+
+                    <article class="card cert-card">
+                        <h3 class="card__title">Git & GitHub Essentials</h3>
+                        <p class="card__body">Online Workshop · 2022 – Branching & PR basics.</p>
+                        <p class="cert-card__meta">Completed: 2022</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer" id="contact">
+        <div class="container footer__inner">
+            <div class="footer__info">
+                <h2 class="footer__title">Let’s build something together.</h2>
+                <p class="footer__text">
+                    If you’re looking for a developer who enjoys clean UI, thoughtful UX,
+                    and solid engineering, feel free to reach out.
+                </p>
+                <a href="mailto:example@gmail.com" class="btn btn-primary btn-sm">
+                    Email Me
+                </a>
+            </div>
+
+            <div class="footer__meta">
+                <p class="footer__label">Quick Links</p>
+                <ul class="footer__links">
+                    <li><a href="#top">Back to top</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+
+                <p class="footer__copyright">
+                    © <span id="year"></span> Aurora Circuit · Designed for students and professionals.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ================= JAVASCRIPT ================= -->
+    <script>
+        // DARK MODE
+        const themeToggleBtn = document.querySelector(".theme-toggle");
+        const themeToggleIcon = document.querySelector(".theme-toggle__icon");
+        const themeLink = document.getElementById("theme-style");
+
+        function setTheme(mode) {
+            if (mode === "dark") {
+                themeLink.setAttribute("href", "css/index-dark.css");
+                themeToggleIcon.textContent = "☀️";
+                document.documentElement.setAttribute("data-theme", "dark");
+            } else {
+                themeLink.setAttribute("href", "css/index.css");
+                themeToggleIcon.textContent = "🌙";
+                document.documentElement.setAttribute("data-theme", "light");
+            }
+            localStorage.setItem("aurora-theme", mode);
+        }
+
+        const savedTheme = localStorage.getItem("aurora-theme") || "light";
+        setTheme(savedTheme);
+
+        themeToggleBtn.addEventListener("click", () => {
+            const current = localStorage.getItem("aurora-theme") || "light";
+            const next = current === "light" ? "dark" : "light";
+            setTheme(next);
+        });
+
+        // MOBILE MENU
+        const navToggle = document.querySelector(".nav-toggle");
+        const navLinks = document.querySelector(".navbar__links");
+
+        navToggle.addEventListener("click", () => {
+            const expanded = navToggle.getAttribute("aria-expanded") === "true";
+            navToggle.setAttribute("aria-expanded", String(!expanded));
+            navLinks.classList.toggle("navbar__links--open");
+        });
+
+        // Close mobile menu when a nav link is clicked
+        navLinks.addEventListener("click", (e) => {
+            if (e.target.tagName.toLowerCase() === "a") {
+                navLinks.classList.remove("navbar__links--open");
+                navToggle.setAttribute("aria-expanded", "false");
+            }
+        });
+
+        // Set current year in footer
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

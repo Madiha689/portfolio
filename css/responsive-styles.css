@@ -1,0 +1,105 @@
+/*
+===========================================
+  📱 responsive-styles.css – Media Queries
+  Portfolio-Templates /Rainbow_Spectrum
+  Author: Madhurima Rawat
+  Description:
+    This file defines responsive styling rules to 
+    ensure the layout adapts smoothly across various 
+    screen sizes and devices — from desktops and tablets 
+    to mobile phones. Includes layout scaling, spacing 
+    adjustments, and font resizing to maintain 
+    accessibility and visual consistency.
+===========================================
+*/
+
+/* ========== 📱 Responsive Queries ========== */
+
+/* Small Devices (Phones) */
+@media (max-width: 576px) {
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px 0;
+        padding: 0;
+        width: 100%
+    }
+
+    nav li {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.95rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown-menu li a {
+        text-align: left;
+    }
+
+    /* ========== 📄 Template Sections ========== */
+    .template-section {
+        scroll-margin-top: 105px;
+    }
+
+    .section-heading {
+        font-size: 1.5rem;
+    }
+
+    .section-description {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+
+    .card-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .section-card {
+        width: 90%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .section-card img {
+        max-height: 140px;
+    }
+
+    button#theme-toggle {
+        font-size: 0.9rem;
+    }
+}
+
+/* Medium Devices (Tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-card {
+        flex: 1 1 45%;
+        margin: 0 auto;
+    }
+
+    .card-container {
+        gap: 2rem;
+    }
+}
+
+/* Large Devices (Laptops and Desktops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .card-container {
+        justify-content: space-around;
+    }
+
+    .section-card {
+        flex: 1 1 30%;
+    }
+}

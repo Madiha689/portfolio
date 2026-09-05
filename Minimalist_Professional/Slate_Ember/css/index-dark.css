@@ -1,0 +1,70 @@
+/* -------------------------------------------
+   Scoped Dark Mode Styles 🌙🖤
+   -------------------------------------------
+   Author: Madhurima Rawat 👩‍💻
+   Purpose: Provides alternate styling when the
+            `dark-mode` class is applied to the
+            <body> element. Overrides light-mode
+            styles for better readability and 
+            visual balance in low-light settings 🌒.
+   Affected Elements:
+     - Body background and text 🖤📄
+     - Header and navigation links 🔗
+     - Section headings and bio text 📰
+     - Cards (project and certification) 🃏
+     - Social links 🌐
+   Usage:
+     - Add the class 'dark-mode' to <body> to
+       enable dark theme styling 🌘.
+------------------------------------------- */
+
+/* Scoped dark mode styles (when dark mode class is added to body) */
+body.dark-mode {
+    background-color: var(--black);
+    /* Dark background */
+    color: var(--cream);
+    /* Light text */
+}
+
+body.dark-mode .bio {
+    color: var(--coral);
+    /* Make bio text coral */
+}
+
+body.dark-mode .section-heading {
+    color: var(--cream);
+    /* Headings in cream */
+}
+
+body.dark-mode .social-link {
+    color: var(--cream);
+    /* Links in cream */
+}
+
+body.dark-mode .section-card {
+    background-color: var(--dark-grey);
+    /* Darker card background */
+    box-shadow: 0 4px 8px var(--cream);
+    /* Subtle cream shadow */
+}
+
+body.dark-mode .section-card:hover {
+    box-shadow: 0 4px 16px var(--coral);
+    /* Subtle coral shadow */
+}
+
+body.dark-mode .section-heading,
+body.dark-mode .section-subheading {
+    color: var(--cream);
+    /* Project name in cream */
+}
+
+/* Technologies/tools and certificates link used in the project */
+body.dark-mode .section-meta {
+    color: var(--cream);
+}
+
+/* Shared margin for all project sub-elements */
+body.dark-mode .section-description {
+    color: var(--coral);
+}

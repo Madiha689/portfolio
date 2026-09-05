@@ -1,0 +1,15 @@
+{
+    "name": "Jane Doe",
+    "role": "Full Stack Developer | UI/UX Designer",
+    "bio": "Creative and detail-oriented developer passionate about building user-friendly digital experiences.",
+    "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Python",
+        "Git",
+        "Figma"
+    ]
+}

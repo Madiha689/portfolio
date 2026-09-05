@@ -1,0 +1,130 @@
+/* -------------------------------------------
+   Scoped Dark Mode Styles 🌙🖤
+   -------------------------------------------
+   Author: Madhurima Rawat 👩‍💻
+   Purpose: Provides alternate styling when the
+            `dark-mode` class is applied to the
+            <body> element. Overrides light-mode
+            styles for better readability and 
+            visual balance in low-light settings 🌒.
+   Affected Elements:
+     - Body background and text 🖤📄
+     - Header and navigation links 🔗
+     - Section headings and bio text 📰
+     - Cards (project and certification) 🃏
+     - Social links 🌐
+   Usage:
+     - Add the class 'dark-mode' to <body> to
+       enable dark theme styling 🌘.
+------------------------------------------- */
+
+/* Scoped dark mode styles (when dark mode class is added to body) */
+body.dark-mode {
+    background-color: #333;
+    /* Dark background */
+    color: var(--white);
+    /* Light text */
+}
+
+body.dark-mode header {
+    background-color: var(--light-grey);
+    /* Light header background */
+}
+
+body.dark-mode nav a {
+    color: var(--white);
+    /* Dark text on light header */
+}
+
+body.dark-mode nav a:hover {
+    color: var(--dark-white);
+    /* Highlight color */
+}
+
+body.dark-mode .bio {
+    color: var(--dark-white);
+    /* Make bio text white */
+}
+
+body.dark-mode .social-link {
+    color: var(--bg-white);
+    /* Links in white */
+    border: 2px solid var(--white);
+    /* Border */
+}
+
+body.dark-mode .social-link:hover {
+    background-color: var(--bg-white);
+    /* Change background */
+    color: var(--black);
+    /* Change text color */
+    border-color: var(--black);
+    /* Change border */
+}
+
+/* Individual skill item */
+body.dark-mode .skills-list li {
+    background-color: var(--bg-white);
+    /* Skill badge color */
+    color: var(--black);
+    /* Text color */
+    box-shadow: 0 2px 5px var(--grey);
+    /* Subtle shadow */
+}
+
+body.dark-mode .skills-list li:hover {
+    background-color: var(--light-grey);
+    /* Invert colors */
+    color: var(--white);
+    box-shadow: 0 2px 5px var(--gray);
+}
+
+body.dark-mode .section-card {
+    background-color: var(--bg-grey);
+    /* Darker card background */
+    box-shadow: 0 4px 8px var(--white);
+    /* Subtle white shadow */
+}
+
+body.dark-mode .section-card:hover {
+    box-shadow: 0 4px 16px var(--white);
+    /* Subtle white shadow */
+}
+
+/* Section heading styles */
+.section-heading {
+    border-bottom: 2px solid var(--bg-white);
+}
+
+body.dark-mode .section-heading,
+body.dark-mode .section-subheading {
+    color: var(--white);
+    /* Project name in white */
+}
+
+/* Technologies/tools and certificates link used in the project */
+body.dark-mode .section-meta {
+    color: var(--dark-white);
+}
+
+/* Shared margin for all project sub-elements */
+body.dark-mode .section-description {
+    color: var(--white);
+}
+
+/* Dark mode compatibility if needed */
+body.dark-mode .footer {
+    background-color: var(--light-grey);
+    /* Light header background */
+    color: var(--bg-white);
+}
+
+/* Hover effect for project links */
+body.dark-mode .section-links a:hover {
+    color: var(--white);
+}
+
+/* Icon styling */
+body.dark-mode .hobby-icon {
+    color: var(--dark-white);
+}

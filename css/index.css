@@ -1,0 +1,191 @@
+/* ========== 🌐 Base ========== */
+body {
+    color: #333;
+    transition: var(--text-grey) 0.3s, color 0.3s;
+    background-color: var(--bg-white);
+}
+
+/* ========== 🔝 Header & Navigation ========== */
+header {
+    background-color: var(--header-white);
+    box-shadow: 0 2px 5px var(--hover-black);
+}
+
+nav a {
+    color: var(--text-grey);
+}
+
+nav a:hover {
+    color: var(--text-blue);
+}
+
+/* ========== ⬇️ Dropdown Menu ========== */
+.dropdown-menu {
+    background-color: var(--section-fill);
+    border: 1px solid var(--text-blue);
+    box-shadow: 0 2px 6px var(--hover-black);
+}
+
+/* ========== ⬇️ Dropdown Menu hover ========== */
+.dropdown-menu a:hover {
+    background-color: var(--header-white);
+    border: 1px solid var(--bg-white);
+}
+
+/* ========== 📄 Template Sections ========== */
+.template-section {
+    background-color: var(--bg-white);
+}
+
+.section-heading {
+    color: var(--heading-color);
+}
+
+.section-description {
+    color: var(--light-grey);
+}
+
+.section-card {
+    box-shadow: 0 4px 10px var(--hover-black);
+    background-color: var(--section-fill);
+    border-top: 4px solid var(--bg-white);
+}
+
+.section-link {
+    color: var(--heading-color);
+}
+
+/* Minimalist Cards */
+.section-card:nth-child(1) {
+    border-block: 5px solid var(--color-slate-ember);
+    box-shadow: 0 4px 12px var(--color-slate-ember);
+}
+
+.section-card:nth-child(1) .section-link {
+    color: var(--color-slate-ember);
+}
+
+.section-card:nth-child(2) {
+    border-block: 5px solid var(--color-golden-fern);
+    box-shadow: 0 4px 12px var(--color-golden-fern);
+}
+
+.section-card:nth-child(2) .section-link {
+    color: var(--color-golden-fern);
+}
+
+.section-card:nth-child(3) {
+    border-block: 5px solid var(--color-monochrome-grace);
+    box-shadow: 0 4px 12px var(--color-monochrome-grace);
+}
+
+.section-card:nth-child(3) .section-link {
+    color: var(--color-monochrome-grace);
+}
+
+.section-card:nth-child(4) {
+    border-block: 5px solid var(--color-blushed-graphite);
+    box-shadow: 0 4px 12px var(--color-blushed-graphite);
+}
+
+.section-card:nth-child(4) .section-link {
+    color: var(--color-blushed-graphite);
+}
+
+/* Creative Section Cards */
+#creative .section-card:nth-child(1) {
+    border-block: 5px solid var(--color-rainbow-spectrum);
+    box-shadow: 0 4px 12px var(--color-rainbow-spectrum);
+}
+
+#creative .section-card:nth-child(1) .section-link {
+    color: var(--color-rainbow-spectrum);
+}
+
+#creative .section-card:nth-child(2) {
+    border-block: 5px solid var(--color-blue-whisper);
+    box-shadow: 0 4px 12px var(--color-blue-whisper);
+}
+
+#creative .section-card:nth-child(2) .section-link {
+    color: var(--color-blue-whisper);
+}
+
+#creative .section-card:nth-child(3) {
+    border-block: 5px solid var(--color-teal-rose);
+    box-shadow: 0 4px 12px var(--color-teal-rose);
+}
+
+#creative .section-card:nth-child(3) .section-link {
+    color: var(--color-teal-rose);
+}
+
+#creative .section-card:nth-child(4) {
+    border-block: 5px solid var(--color-aurora-circuit);
+    box-shadow: 0 4px 12px var(--color-aurora-circuit);
+}
+
+#creative .section-card:nth-child(4) .section-link {
+    color: var(--color-aurora-circuit);
+}
+
+/* Nature Section Cards */
+#nature .section-card:nth-child(1) {
+    border-block: 5px solid var(--color-nature-canvas);
+    box-shadow: 0 4px 12px var(--color-nature-canvas);
+}
+
+#nature .section-card:nth-child(1) .section-link {
+    color: var(--color-nature-canvas);
+}
+
+/* ========== 🔁 Hover Effects for Section Cards ========== */
+
+/* Minimalist Cards Hover */
+.section-card:nth-child(1):hover {
+    box-shadow: 0 10px 18px var(--color-slate-ember);
+}
+
+.section-card:nth-child(2):hover {
+    box-shadow: 0 10px 18px var(--color-golden-fern);
+}
+
+.section-card:nth-child(3):hover {
+    box-shadow: 0 10px 18px var(--color-monochrome-grace);
+}
+
+.section-card:nth-child(4):hover {
+    box-shadow: 0 10px 18px var(--color-blushed-graphite);
+}
+
+/* Creative Section Cards Hover */
+#creative .section-card:nth-child(1):hover {
+    box-shadow: 0 10px 18px var(--color-rainbow-spectrum);
+}
+
+#creative .section-card:nth-child(2):hover {
+    box-shadow: 0 10px 18px var(--color-blue-whisper);
+}
+
+#creative .section-card:nth-child(3):hover {
+    box-shadow: 0 10px 18px var(--color-teal-rose);
+}
+
+/* Nature Section Cards Hover */
+#nature .section-card:nth-child(1):hover {
+    box-shadow: 0 10px 18px var(--color-nature-canvas);
+}
+
+/* ========== 🌗 Theme Toggle Button ========== */
+button#theme-toggle {
+    color: var(--text-grey);
+}
+
+button#theme-toggle:hover {
+    color: var(--text-blue);
+}
+
+.footer {
+    color: var(--gray);
+    background-color: var(--header-white);
+}

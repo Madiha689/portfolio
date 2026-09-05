@@ -1,0 +1,33 @@
+:root {
+   /* ========================================
+      Teal_Rose – Color Palette
+      ----------------------------------------
+      A serene, airy mix of blues and soft contrasts,
+      evoking the calm of water and sky.
+   ======================================== */
+
+   --light-teal: rgb(93, 218, 218);
+
+   --teal: rgb(6, 70, 70);
+   --dark-teal: rgb(15, 66, 66);
+   --light-pink: rgb(241, 213, 218);
+   --light-pink-bg: rgb(232, 103, 206);
+   --hover-pink: #d81c87;
+   /* Soft mauve – subtle alert or romantic accent */
+   --dark-pink-text: #701047;
+   /* Soft mauve – subtle alert or romantic accent */
+
+   --button-text: bisque;
+   --light-text: rgb(255, 246, 246);
+
+   --dark-text: #061e27;
+
+   /* ========================================
+      🖋️ Typography – Whispered Refinement
+      ----------------------------------------
+      A classic serif with a poetic, tranquil tone.
+   ======================================== */
+   --font-main: 'Marcellus';
+   --heading: 'Cinzel',
+      serif;
+}

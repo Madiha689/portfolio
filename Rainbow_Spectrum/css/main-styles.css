@@ -1,0 +1,304 @@
+/*
+-------------------------------------------
+Author: Madhurima Rawat 👩‍💻
+File: main-styles.css 🎨
+Purpose: Main stylesheet for the personal portfolio website.
+         Defines overall layout, typography (fonts & sizes), 
+         color palette 🎨 (light & dark modes), and component styling 
+         such as navigation, sections, buttons, and responsive design 📱.
+-------------------------------------------
+*/
+
+/* Reset box model and spacing */
+* {
+    box-sizing: border-box;
+    /* Include padding and border in element's total width and height */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+}
+
+/* General body styles */
+body {
+    font-family: var(--font-main);
+    /* Clean, modern font stack */
+    line-height: 1.5;
+    /* Improve readability */
+}
+
+/* Header styling */
+header {
+    padding: 1rem 2rem;
+}
+
+/* Increase navbar height and align items vertically */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Vertically center items */
+    gap: 2rem;
+    height: 2.5rem;
+    /* Increase height */
+    width: 100%;
+}
+
+/* Make links fill the height and center content */
+nav a.nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    /* Vertically center icon + text */
+    height: 100%;
+    /* Take full nav height */
+    padding: 0 0.75rem;
+    /* Horizontal spacing */
+    transition: color 0.3s;
+}
+
+.nav-link i {
+    margin-right: 6px;
+    vertical-align: middle;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content container */
+main {
+    max-width: 900px;
+    /* Limit content width */
+    margin: 2rem auto;
+    /* Center the main section */
+    padding: 0 1rem;
+    /* Horizontal padding */
+}
+
+/* Section spacing */
+.section {
+    margin-bottom: 3rem;
+    /* Space between sections */
+}
+
+/* Home section */
+.home-section {
+    text-align: center;
+    /* Center-align content */
+}
+
+.name {
+    font-size: 3rem;
+    /* Large name text */
+    font-weight: 900;
+    /* Very bold */
+    margin-bottom: 0.5rem;
+    /* Space below name */
+}
+
+.role {
+    font-size: 1.5rem;
+    /* Smaller than name */
+    font-weight: 600;
+    /* Semi-bold */
+    margin-bottom: 1rem;
+    /* Space below role */
+}
+
+.bio {
+    font-style: italic;
+    /* Italic style for bio */
+    font-size: 1.1rem;
+    /* Medium font size */
+    max-width: 600px;
+    /* Limit width */
+    margin: 0 auto;
+    /* Center horizontally */
+}
+
+/* Section heading styles */
+.section-heading {
+    font-size: 2rem;
+    /* Heading size */
+    margin-bottom: 1rem;
+    /* Space below heading */
+    padding-bottom: 0.25rem;
+    /* Padding below text */
+    text-align: left;
+    /* Left align */
+    display: block;
+    /* Ensure block layout */
+    width: 100%;
+    /* Full width */
+}
+
+/* Social links layout */
+.social-links {
+    display: flex;
+    /* Horizontal layout */
+    gap: 1rem;
+    /* Space between links */
+    justify-content: center;
+    /* Center the items */
+    flex-wrap: wrap;
+    /* Wrap on smaller screens */
+}
+
+/* Individual social link */
+.social-link {
+    font-weight: 600;
+    /* Bold text */
+    text-decoration: none;
+    /* Remove underline */
+    padding: 0.5rem 1rem;
+    /* Border */
+    border-radius: 6px;
+    /* Rounded corners */
+    transition: all 0.3s;
+    /* Smooth transition */
+
+}
+
+.social-link:hover {
+    transform: translateY(-5px) scale(1.03);
+    /* Moves up and scales up */
+}
+
+/* Skills list layout */
+.skills-list {
+    list-style: none;
+    /* Remove bullets */
+    display: flex;
+    /* Flex layout */
+    gap: 1rem;
+    /* Spacing between skills */
+    flex-wrap: wrap;
+    /* Wrap items */
+    justify-content: center;
+    /* Center the items */
+}
+
+/* Individual skill item */
+.skills-list li {
+    /* Text color */
+    padding: 0.5rem 1rem;
+    /* Padding inside badge */
+    border-radius: 20px;
+    /* Pill shape */
+    font-weight: 600;
+    /* Bold text */
+}
+
+.skills-list li:hover {
+    transform: translateY(-5px) scale(1.03);
+    /* Moves up and scales up */
+    border: 2px solid;
+}
+
+/* Project and certification layout */
+.section-list {
+    display: flex;
+    flex-direction: row;
+    /* <-- change from column to row */
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    /* allows wrapping on small screens */
+    justify-content: center;
+    /* optional: center cards in row */
+}
+
+.section-card {
+    padding: 1rem 1.5rem;
+    /* Outer border */
+    margin: 12px 0;
+    /* Vertical spacing */
+    border-radius: 8px;
+    /* Rounded corners */
+    text-align: center;
+    /* On hover effect */
+    width: 45%;
+    /* adjust based on container width */
+    min-width: 280px;
+    /* optional: prevent shrinking too much */
+}
+
+.section-card:hover {
+    transform: translateY(-5px) scale(1.03);
+    /* Moves up and scales up */
+}
+
+/* -------------------------------------------
+   Project Section Styles
+------------------------------------------- */
+
+/* Project title */
+.section-subheading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+/* Project description text */
+.section-description {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Technologies/tools and certificates link used in the project */
+.section-meta {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+/* Links to project demos, GitHub, etc. */
+.section-links a {
+    margin-right: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Hover effect for project links */
+.section-links a:hover {
+    text-decoration: underline;
+}
+
+/* Image styling for each project */
+.section-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    object-fit: cover;
+    max-height: 200px;
+}
+
+/* Shared margin for all project sub-elements */
+.project-description,
+.project-tools,
+.project-links {
+    margin: 6px 0;
+}
+
+/* Icon styling */
+.hobby-icon {
+    font-size: 1.3rem;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+    opacity: 0;
+}

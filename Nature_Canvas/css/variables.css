@@ -1,0 +1,46 @@
+/*
+===========================================
+  Nature_Canvas (Blended & Modular)
+  Portfolio-Templates /Nature_Canvas
+  Author: Madhurima Rawat
+  Description:
+    Defines modular CSS variables for a bright and dark-friendly Nature Canvas theme.
+    Includes smoothly blended linear gradients, well-labeled color tokens,
+    and dark mode-compatible enhancements.
+===========================================
+*/
+
+:root {
+   /* ========================================
+      🌿 Nature-Inspired Theme – Color Palette
+      ----------------------------------------
+      A calm, refreshing mix of greens and earth tones,
+      evoking the serenity of natural landscapes.
+   ======================================== */
+   --light-green: #e1f1e2;
+   /* Mint pastel – gentle, fresh highlights */
+   --red: #d85d5d;
+   /* Earthy rose – subtle alert or accent tone */
+   --dark-green: #094929;
+   /* Pine green – strong contrast for depth */
+   --teal: rgb(6, 100, 100);
+   /* Deep teal – cool, oceanic balance */
+   --hover-green: green;
+   /* Natural green – interactive hover cue */
+   --button-text: var(--light-green);
+   /* Button text tone – soft but legible on dark */
+
+   --light-teal: rgb(156, 225, 225);
+   /* Light teal – cool, oceanic balance */
+
+   --dark-green-text: #06341d;
+   /* Deep forest green – rich, readable, and nature-rooted */
+
+   /* ========================================
+      🖋️ Typography – Organic Elegance
+      ----------------------------------------
+      A classic serif with modern curves for a warm,
+      readable, and nature-aligned aesthetic.
+   ======================================== */
+   --font-main: 'Marcellus', sans-serif;
+}

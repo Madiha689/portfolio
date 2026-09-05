@@ -1,14 +1,8 @@
 [
     {
-        "degree": "B.Tech in Computer Science",
-        "institution": "University of Example",
-        "year": "2019 - 2023",
-        "details": "Focused on software engineering, algorithms, and UX design."
+        "degree": "Bachalor of Science in Statistics",
+        "institution": "Wayne State University",
+        "Expected Graduation Date": "May 2028",
+        "details": "Focused on statistical computing, probability theory, biostatistical methods, and applied data analysis using R and Python."
     },
-    {
-        "degree": "High School Diploma",
-        "institution": "Example High School",
-        "year": "2017 - 2019",
-        "details": "Graduated with honors in science and mathematics."
-    }
 ]

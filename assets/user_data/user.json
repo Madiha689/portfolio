@@ -1,15 +1,31 @@
 {
-    "name": "Jane Doe",
-    "role": "Full Stack Developer | UI/UX Designer",
-    "bio": "Creative and detail-oriented developer passionate about building user-friendly digital experiences.",
-    "skills": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Node.js",
-        "Python",
-        "Git",
-        "Figma"
-    ]
+  "name": "Madiha Rahman",
+  "role": "Statistics Student at Wayne State University",
+  "bio": "I’m a statistics student with a growing interest in biostatistics, public health data, and statistical modeling. I enjoy turning complex datasets into clear, meaningful insights and am actively preparing for graduate‑level biostatistics training.",
+  
+  "education": [
+    "Bachelor of Arts in Statistics, Wayne State University — Expected May 2028, Dean’s List Winter 2026, GPA 3.85, Cancer Research Club Member."
+  ],
+
+  "skills": [
+    "R",
+    "Python (matplotlib, pandas)",
+    "SPSS",
+    "MATLAB",
+    "Excel",
+    "Teaching"
+  ],
+
+  "relevant_coursework": [
+    "STA 5030 Statistical Computing and Data Analysis — R, SAS, Python, SPSS, Minitab, regression, ANOVA, hypothesis testing.",
+    "MAT 5700 Introduction to Probability Theory — probability distributions, conditional probability, expectation, LLN, CLT.",
+    "MAT 5100 Numerical Methods I — numerical integration, differentiation, interpolation, equation solving.",
+    "PH 3200 Introduction to Biostatistics — sampling, inference, correlation, linear regression.",
+    "BE 1600 Introduction to Programming and Computation: Python — Python fundamentals, data structures, data manipulation.",
+    "AST 2010 Descriptive Astronomy (Honors Literature Review Project) — research, literature review, scientific writing."
+  ],
+
+  "work_experience": [
+    "Student Performance Data Assistant, Kumon Math & Reading Centre — K-SIS data entry, performance tracking, individualized student support."
+  ]
 }
